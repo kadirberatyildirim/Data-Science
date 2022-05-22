@@ -65,3 +65,4 @@ def update(frame):
 ani = FuncAnimation(fig, update, frames = 298,
                     init_func = init, blit = True)
 plt.show()
+#ani.save('regression_tree_thresholds_120.gif', writer='imagemagick', fps=120)
